@@ -411,3 +411,9 @@ Project metrics include standard JVM/HTTP metrics and outbox queue gauge (`payme
 - extend multi-currency conversion rules
 
 ---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+See the [LICENSE](LICENSE) file for details.
