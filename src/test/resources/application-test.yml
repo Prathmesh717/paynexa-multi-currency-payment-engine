@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: paynexa-test
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+
+
+logging:
+  level:
+    io.github.prathmesh717.paynexa: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
